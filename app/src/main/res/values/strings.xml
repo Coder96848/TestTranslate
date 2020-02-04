@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TestTranslate</string>
+    <string name="action_history">История</string>
+    <string name="key_yandex_api">trnsl.1.1.20190807T065246Z.f93f01220952e66a.2f998a2eeaa74d382b041b8fce79927d16b1c217</string>
+    <string name="edit_text_hint">Введите текст</string>
+    <string name="translate">Перевод…</string>
+    <string name="translator">Переводчик</string>
+</resources>
