@@ -1,4 +1,4 @@
-package com.example.testtranslate.activity;
+package com.example.testtranslate.ui.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
