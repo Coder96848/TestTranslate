@@ -5,9 +5,7 @@ import android.util.Log;
 import com.example.testtranslate.api.APILanguage;
 import com.example.testtranslate.models.LanguageBody;
 import com.example.testtranslate.interfaces.OnLanguageResponseListener;
-import com.example.testtranslate.models.LanguageResponse;
 
-import io.reactivex.Single;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
 import io.reactivex.schedulers.Schedulers;

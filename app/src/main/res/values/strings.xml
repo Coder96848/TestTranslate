@@ -5,4 +5,5 @@
     <string name="edit_text_hint">Введите текст</string>
     <string name="translate">Перевод…</string>
     <string name="translator">Переводчик</string>
+    <string name="history">История</string>
 </resources>
