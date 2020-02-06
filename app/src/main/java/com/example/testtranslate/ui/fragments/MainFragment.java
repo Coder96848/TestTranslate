@@ -133,12 +133,13 @@ public class MainFragment extends Fragment {
         mYandexTranslate = YandexTranslate.getInstance();
 
         mDisposable.add(RxTextView.textChanges(editTextTranslate)
+                .map(CharSequence::toString)
                 .debounce(500, TimeUnit.MILLISECONDS)
                 .filter(text -> !text.equals(""))
                 .distinct()
                 .subscribe(response -> {
                             translate();
-                            saveToDB(response.toString());      //TODO записывает все в бд, в том числе пробелы
+                            saveToDB(response);
                         }, throwable -> Log.e(TAG, "Unable to get translate", throwable)
                 ));
     }
